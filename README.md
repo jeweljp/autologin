@@ -1,7 +1,7 @@
 # autologin
 Python script to automate login to captive portals.
 
-##Steps
+## Steps
 1. Requirments python3, firefox and selenium.
 2. Update the path provided in the code to geckodriver.
 3. Inspect the login page and update the code [I've used name tags. You can use id or class chage the code accordingly].
