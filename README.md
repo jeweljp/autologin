@@ -8,3 +8,5 @@ Python script to automate login to captive portals.
 4. Thats it. Run the script. 
 
 If you want you can convert this to one click executable file.
+
+If you are using a LINUX system, then add a custom shortcut. Goto add keyboard shortcut. Use the command < gnome-terminal -e "path/to/login.py" >
