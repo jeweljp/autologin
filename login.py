@@ -1,14 +1,18 @@
 #!/usr/bin/python3
 _author_ = "Jewel Jo Prince"
 from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support.expected_conditions import presence_of_element_located
 import time
 
+options = Options()
+options.headless = True
+
 #Download and extract geckodriver
-with webdriver.Firefox(executable_path='Path/to/geckodriver') as driver:
+with webdriver.Firefox(executable_path='Path/to/geckodriver', options=options) as driver:
 
 #Enter the IP of login page
     my_login_page = "My IP"
